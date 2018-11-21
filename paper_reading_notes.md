@@ -34,7 +34,7 @@ All three models have their use cases, pros and cons, but probably the most impo
 摘要：论文提出采用LightGBM预测模型进行短期超市商品的销量预测，LightGBM是结合了分类树和回归树的一种组合模型，发现结果比单一的模型效果要好。文中提到的特征工程师值得参考的：静态特征提取+动态特征；静态特征提取是指一些统计特征，而动态特征是通过基本特征和销售特征作为训练数据，利用用 SVR 模型进行处理，提取商品销售的商品销量周期性指数，用来作为商品销量的动态特征。缺点：论文描述过于简单，难以清除的具体特征处理及LightGBM方法原理和实现。
 
 10.	Maria Elena Nenni, Luca Giustiniano, and Luca Pirolo, “Demand forecasting in the fashion industry: a review,” International Journal of Engineering Business Management, vol. 5, no. Godište 2013, pp. 5-36, 2013.  
-摘要：本文提出了需求分类的指标:ADI(Average inter‐Demand Interval)和CV(Coefficient of Variation).同样，也可参考如下网页：https://frepple.com/blog/demand-classification/
+摘要：本文提出了需求分类的指标: ADI(Average inter‐Demand Interval)和CV(Coefficient of Variation).同样，也可参考如下网页：https://frepple.com/blog/demand-classification/
 
 11.	Rafael S Gutierrez, Adriano O Solis, and Somnath Mukhopadhyay, “Lumpy demand forecasting using neural networks,” International Journal of Production Economics, vol. 111, no. 2, pp. 409-420, 2008.  
 摘要：本文提出了使用neural network来解决lumpy类型的销量预测，输入为（前一期的销量，前一期最近零销量的间隔天数）。个人感觉特征取得很有代表性，但是感觉特征数量有点少。
@@ -44,3 +44,5 @@ All three models have their use cases, pros and cons, but probably the most impo
 
 13.	毕建涛, and 魏红芹, “改进的 BP 神经网络及其在销量预测中的应用,” 山东理工大学学报: 自然科学版, vol. 25, no. 6, pp. 29-33, 2011.  
 摘要：本文提出基于PCA的PSO-BP销量预测模型，具体过程是：首先使用PCA对输入数据进行降维，简化BP的结构；然后使用PSO搜索较优的BP初始化参数，加速BP的收敛和更小的概率陷入局部最优解；最后，BP进行训练模型。实验使用S品牌服装为例，与标准的BP和基于PCA的BP进行比较，结果较优。该文献可以参考的一点是实验中有给出考虑的特征，但是没有给出具体的数据处理：促销价格折扣、促销活动天数、广告活动投入、竞争对手的促销活动、产品需求的季节性、产品所处的生命周期、社会消费品零售总额、消费者价格指数
+
+##  <span id="service_recommendation">服务推荐（QoS预测）</span> 
