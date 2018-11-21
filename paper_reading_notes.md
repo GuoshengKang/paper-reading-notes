@@ -46,3 +46,20 @@ All three models have their use cases, pros and cons, but probably the most impo
 摘要：本文提出基于PCA的PSO-BP销量预测模型，具体过程是：首先使用PCA对输入数据进行降维，简化BP的结构；然后使用PSO搜索较优的BP初始化参数，加速BP的收敛和更小的概率陷入局部最优解；最后，BP进行训练模型。实验使用S品牌服装为例，与标准的BP和基于PCA的BP进行比较，结果较优。该文献可以参考的一点是实验中有给出考虑的特征，但是没有给出具体的数据处理：促销价格折扣、促销活动天数、广告活动投入、竞争对手的促销活动、产品需求的季节性、产品所处的生命周期、社会消费品零售总额、消费者价格指数
 
 ##  <span id="service_recommendation">服务推荐（QoS预测）</span> 
+1.	HongBing Wang, and Nguyen Xuan Hau, “QoS prediction of Web service based on US-AWS,” Journal of Service Science Research, vol. 8, no. 2, pp. 193-205, 2016.  
+摘要：论文提出了US-AWS方法，将基于用户的向量和基于服务的向量进行自编码，分别得到2个预测器，最后使用stacking的方法将2个预测结果集成起来采用拉格朗日算子求解最佳的权重组合，从而得到最后的预测结果。实验使用郑子彬的数据集，结果表明比单一的U-AWS方法和S-AWS方法较优。论文主要借鉴了一下文献的成果：Qingwen Liu, Yan Xiong, and Wenchao Huang, “Combining user-based and item-based models for collaborative filtering using stacked regression,” Chinese Journal of Electronics, vol. 23, no. 4, pp. 712-717, 2014.
+
+2.	Yilei Zhang, and Michael R Lyu, "Time-Aware Model-Based QoS Prediction," QoS Prediction in Cloud and Service Computing, pp. 35-53: Springer, 2017.  
+摘要：论文提出了基于矩阵分解时间序列的QoS预测，矩阵为3维的矩阵（用户-服务-时间）。给了基于矩阵分解的损失函数，并给出了求解算法。实验比较了其它3中矩阵分解的方法，表明WSPred方法预测误差最小。
+   
+3.	Wei Xiong, Zhao Wu, Bing Li et al., "Reliability Ranking Prediction for Cloud Services via Skyline." pp. 64-74.    
+摘要：论文提出了服务选择的排序方法，首先使用从协同过滤（UPCC+IPCC）的方法对QoS进行预测，然后使用skyline挑选进一步挑选候选服务集合，最后学习用户的偏好函数，从而得到聚合的QoS，对服务进行排序。
+
+4.	Hongbing Wang, Zhengping YangQi Yu. "Online Reliability Prediction via Long Short Term Memory for Service-Oriented Systems". Proceedings of 2017 IEEE International Conference on Web Services (ICWS). IEEE, pp. 81-88, 2017.  
+摘要：论文采用LSTM对服务的可靠性进行预测，对比方法：AVHR、Reg、BR、ROP，实验表表明当历史数据越多的时候的LSTM越准确。
+
+5.	Hongbing Wang, Zhengping Yang, Qi Yu, et al. "Online reliability time series prediction via convolutional neural network and long short term memory for service-oriented systems". Knowledge-Based Systems, Vol. 159, No., pp. 132-147, 2018.  
+摘要：论文采用CNN+LSTM=CL-ROP对服务的可靠性进行预测，对比方法：AVHR、Reg、BR、ROP，LSTM实验表表明当历史数据越多的时候的CL-ROP越准确。数据是自己找来的一些服务，进行调用采集的数据，及数据集未公开！
+
+6.	Ruibin Xiong, Jian Wang, Zhongqiao Li, et al. "Personalized LSTM Based Matrix Factorization for Online QoS Prediction". Proceedings of 2018 IEEE International Conference on Web Services (ICWS). IEEE, pp. 34-41, 2018.  
+摘要：论文提出基于LSTM的带时间序列矩阵分解方法PLMF，该模型可以刻画多用户多服务的动态潜在特征，而且可以根据当前的数据进行模型更新。但数据的具体输入是怎样的不是特别清除？
