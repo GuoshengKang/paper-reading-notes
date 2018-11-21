@@ -1,6 +1,8 @@
 1. Albert Fleischmann, Werner SchmidtChristian Stary. ''Subject-oriented business process management''.  Handbook on Business Process Management 2 Springer, pp. 601-621, 2015.  
-摘要：这篇文章是对S-BPM建模方式与实现比较全面的一篇论文，适合最初了解的人看，内容既全面又较新。建模主要分3三个步骤：(1)定义主题；(2)主题交互图；(3)主题行为建模。
+摘要：这篇文章是对S-BPM建模方式与实现比较全面的一篇论文，适合最初了解S-BPM的人看，内容既全面又较新。S-BPM的建模主要分3三个步骤：(1)定义主题；(2)主题交互图；(3)主题行为建模。鉴于对初步了解的人来说，该文献非常重要，因此已对该文献进行了中文翻译。
 
 2. Albert Fleischmann, Werner Schmidt, Christian Stary, et al. Subject-oriented business process management. Springer Science & Business Media, 2012.  
 摘要：这本书对S-BPM建模、验证、优化、实现、监控、建模工具进行全面的介绍。
 
+3. Stephan Schiffner, Thomas RothschädlNils Meyer. "Towards a subject-oriented evolutionary business information system". Proceedings of Enterprise Distributed Object Computing Conference Workshops and Demonstrations (EDOCW), 2014 IEEE 18th International. IEEE, pp. 381-388, 2014.  
+摘要： 这篇文章对演化业务信息系统和S-BPM进行了比较，目的是提出实现基于S-BPM的演化业务信息系统的软件需求。通过比较，S-BPM基本可以满足演化信息系统的需求属性，因此认为S-BPM是一个恰当的方法来建立演化业务信息系统。文章中对的S-BPM的初步介绍非常简洁且全面，是一个值得借鉴的写法。可惜文章引用的很多关于流程变化管理方面的文献都是德文的，没法阅读。查看其引用的文献又几乎没有，无法真正了解具体的工作。
