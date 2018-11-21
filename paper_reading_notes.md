@@ -1,5 +1,11 @@
-文献阅读笔记
-1.	Yiren Wang, Dominic Seyler, Shubhra Kanti Karmaker Santu et al., "A Study of Feature Construction for Text-based Forecasting of Time Series Variables." pp. 2347-2350.
+# 文献阅读笔记
+
+1. **销量预测**
+2. **服务推荐（QoS预测）**
+
+## 销量预测
+
+1.	Yiren Wang, Dominic Seyler, Shubhra Kanti Karmaker Santu et al., "A Study of Feature Construction for Text-based Forecasting of Time Series Variables." pp. 2347-2350.  
 摘要：从文本提取词的词语重要性及主题作为预测的输入特征，对于一些受舆情影响的预测有效。
 
 2.	Tsan-Ming Choi, Chi-Leung Hui, Na Liu et al., “Fast fashion sales forecasting with limited data and time,” Decision Support Systems, vol. 59, pp. 84-92, 2014.
