@@ -34,7 +34,7 @@ All three models have their use cases, pros and cons, but probably the most impo
 摘要：论文提出采用LightGBM预测模型进行短期超市商品的销量预测，LightGBM是结合了分类树和回归树的一种组合模型，发现结果比单一的模型效果要好。文中提到的特征工程师值得参考的：静态特征提取+动态特征；静态特征提取是指一些统计特征，而动态特征是通过基本特征和销售特征作为训练数据，利用用 SVR 模型进行处理，提取商品销售的商品销量周期性指数，用来作为商品销量的动态特征。缺点：论文描述过于简单，难以清除的具体特征处理及LightGBM方法原理和实现。
 
 10.	Maria Elena Nenni, Luca Giustiniano, and Luca Pirolo, “Demand forecasting in the fashion industry: a review,” International Journal of Engineering Business Management, vol. 5, no. Godište 2013, pp. 5-36, 2013.  
-摘要：本文提出了需求分类的指标
+摘要：本文提出了需求分类的指标:ADI(Average inter‐Demand Interval)和CV(Coefficient of Variation).同样，也可参考如下网页：https://frepple.com/blog/demand-classification/
 
 11.	Rafael S Gutierrez, Adriano O Solis, and Somnath Mukhopadhyay, “Lumpy demand forecasting using neural networks,” International Journal of Production Economics, vol. 111, no. 2, pp. 409-420, 2008.  
 摘要：本文提出了使用neural network来解决lumpy类型的销量预测，输入为（前一期的销量，前一期最近零销量的间隔天数）。个人感觉特征取得很有代表性，但是感觉特征数量有点少。
