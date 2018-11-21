@@ -29,7 +29,7 @@
 8.	https://stats.stackexchange.com/questions/114385/what-is-the-difference-between-convolutional-neural-networks-restricted-boltzma  
 摘要：讨论CNN、RBM、Auto-encoder的区别如下：
 All three models have their use cases, pros and cons, but probably the most important properties are: (1) Autoencoders are simplest ones. They are intuitively understandable, easy to implement and to reason about (e.g. it's much easier to find good meta-parameters for them than for RBMs). (2)RBMs are generative. That is, unlike autoencoders that only discriminate some data vectors in favour of others, RBMs can also generate new data with given joined distribution. They are also considered more feature-rich and flexible.(3) CNNs are very specific model that is mostly used for very specific task (though pretty popular task). Most of the top-level algorithms in image recognition are somehow based on CNNs today, but outside that niche they are hardly applicable (e.g. what's the reason to use convolution for film review analysis?).
-<br/><br/>
+
 9.	姜艳梅, and 卜庆凯, “基于数据挖掘的超市商品销量预测,” Hans Journal of Data Mining, vol. 8, no. 02, pp. 74, 2018.  
 摘要：论文提出采用LightGBM预测模型进行短期超市商品的销量预测，LightGBM是结合了分类树和回归树的一种组合模型，发现结果比单一的模型效果要好。文中提到的特征工程师值得参考的：静态特征提取+动态特征；静态特征提取是指一些统计特征，而动态特征是通过基本特征和销售特征作为训练数据，利用用 SVR 模型进行处理，提取商品销售的商品销量周期性指数，用来作为商品销量的动态特征。缺点：论文描述过于简单，难以清除的具体特征处理及LightGBM方法原理和实现。
 
@@ -41,6 +41,6 @@ All three models have their use cases, pros and cons, but probably the most impo
 
 12.	A Nasiri Pour, B Rostami Tabar, and A Rahimzadeh, “A hybrid neural network and traditional approach for forecasting lumpy demand,” Proc. World Acad. Sei. Eng. Technol, vol. 30, pp. 384-389, 2008.  
 摘要：论文引用了上一篇论文，提出了hybrid proposed method (HPM) (HPM)，首先使用MLP预测销量是否发生(0/1)；然后针对发生的销量，使用exponential smoothing预测具体销量数值。实验比较了SBA、MLP、GRNN、RNN集中方法，结果表明HPM方法有较好的综合预测精度。各模型的输入介绍比较清楚，可以借鉴。其中，HPM的输入如下：(1) The demand at the end of the immediately preceding target period (lag 1). (2) The number of periods separating the last two nonzero demand transactions as of the end of the immediately preceding target period. (3) The number of period(s) between target period and first nonzero demand immediately preceding target period. (4) The number of period(s) between target period and first zero demand immediately preceding target period.
-<br/><br/>
+
 13.	毕建涛, and 魏红芹, “改进的 BP 神经网络及其在销量预测中的应用,” 山东理工大学学报: 自然科学版, vol. 25, no. 6, pp. 29-33, 2011.  
 摘要：本文提出基于PCA的PSO-BP销量预测模型，具体过程是：首先使用PCA对输入数据进行降维，简化BP的结构；然后使用PSO搜索较优的BP初始化参数，加速BP的收敛和更小的概率陷入局部最优解；最后，BP进行训练模型。实验使用S品牌服装为例，与标准的BP和基于PCA的BP进行比较，结果较优。该文献可以参考的一点是实验中有给出考虑的特征，但是没有给出具体的数据处理：促销价格折扣、促销活动天数、广告活动投入、竞争对手的促销活动、产品需求的季节性、产品所处的生命周期、社会消费品零售总额、消费者价格指数
