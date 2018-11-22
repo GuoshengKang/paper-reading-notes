@@ -10,6 +10,7 @@
 
 4. Albert Fleischmann, Stephan Borgert, Matthes Elstermann, Florian Krenn, and Robert Singer. "An overview to S-BPM oriented Tool Suites". Proceedings of S-BPM ONE. pp. 30-31, 2017.  
 摘要：文章给出了目前已公布的S-BPM工具，其中介绍了7个工具，有的只适合建模，有的既可以建模也可以执行。 
-![S-BPM_tool_overview_execution](resources/S-BPM_tool_overview_execution.jpg=200x)
+![S-BPM_tool_overview_execution](resources/S-BPM_tool_overview_execution.jpg)
+
 5. Peter Forbrig. "Reuse of models in S-BPM process specifications". Proceedings of Proceedings of the 7th International Conference on Subject-Oriented Business Process Management. ACM, pp. 6, 2015.  
 摘要：
