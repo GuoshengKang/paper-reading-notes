@@ -12,7 +12,7 @@
 摘要：文章给出了目前已公布的S-BPM工具，其中介绍了7个工具，有的只适合建模，有的既可以建模也可以执行。可惜没有开源本地执行的工具，具体介绍如下表：<div align=center><img width="500" height="400" src="resources/S-BPM_tool_overview_execution.jpg"/></div>还好，在github上有搜索到开源的[S-BPM建模与实现工具](https://github.com/stefanstaniAIM/IPPR2016)。
 
 5. **Peter Forbrig. "Reuse of models in S-BPM process specifications". Proceedings of the 7th International Conference on Subject-Oriented Business Process Management. ACM, pp. 6, 2015.**  
-摘要：毫无疑问，领域的建模有诸多优势。现也有不同的符号的建模工具，比如：BPMN、S-BPM。尽管有很多工具支持，创建模型依然是一个挑战。从头创建模型非常耗时和易错。使用已有的模型也有一些问题。有时没有完全的执行正确，导致结果错误；也常常模型的一部分忘记改编到新的上下文。因此，重用模型已有部分的工具支持将非常有益。文章首先介绍了BPMN中如何将组件一般化，形成可以复用的组件。基本思想就是将具体业务的用参数进行泛化，使其可以描述通用的流程模型。然后，类似地将通用组件的概念引入到S-BPM中，使其模型可以重用。同时文章还讨论了不同的组件改编策略。最后，给出了开发工具支持的需求分析：  
+摘要：毫无疑问，领域的建模有诸多优势。现也有不同的符号的建模工具，比如：BPMN、S-BPM。尽管有很多工具支持，创建模型依然是一个挑战。从头创建模型非常耗时和易错。使用已有的模型也有一些问题。有时没有完全的执行正确，导致结果错误；也常常模型的一部分忘记改编到新的上下文。因此，重用模型已有部分的工具支持将非常有益。文章首先介绍了BPMN中如何将组件一般化，形成可以复用的组件。基本思想就是将具体业务的用参数进行泛化，使其可以描述通用的流程模型。然后，类似地将通用组件的概念引入到S-BPM中，使其模型可以重用。<div align=center><img width="300" height="200" src="resources/Generic_model_component_for_customer_interaction.jpg"/></div>同时，文章还讨论了不同的组件改编策略。<div align=center><img width="300" height="200" src="resources/Instances_of_the_generic_model_component_presented.jpg"/></div>最后，给出了开发工具支持的需求分析：  
    1. 支持浏览和实例化；
    2. 支持静态和动态的实例；
    3. 支持设计时的决策；
