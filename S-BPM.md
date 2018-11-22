@@ -9,8 +9,9 @@
 摘要： 这篇文章对演化业务信息系统和S-BPM进行了比较，目的是提出实现基于S-BPM的演化业务信息系统的软件需求。通过比较，S-BPM基本可以满足演化信息系统的需求属性，因此认为S-BPM是一个恰当的方法来建立演化业务信息系统。文章中对的S-BPM的初步介绍非常简洁且全面，是一个值得借鉴的写法。可惜文章引用的很多关于流程变化管理方面的文献都是德文的，没法阅读。查看其引用的文献又几乎没有，无法真正了解具体的工作。
 
 4. Albert Fleischmann, Stephan Borgert, Matthes Elstermann, Florian Krenn, and Robert Singer. "An overview to S-BPM oriented Tool Suites". Proceedings of S-BPM ONE. pp. 30-31, 2017.  
-摘要：文章给出了目前已公布的S-BPM工具，其中介绍了7个工具，有的只适合建模，有的既可以建模也可以执行。 
-![S-BPM_tool_overview_execution](resources/S-BPM_tool_overview_execution.jpg)
+摘要：文章给出了目前已公布的S-BPM工具，其中介绍了7个工具，有的只适合建模，有的既可以建模也可以执行。
+<div align=center><img width="150" height="150" src="resources/S-BPM_tool_overview_execution.jpg"/></div>
+
 
 5. Peter Forbrig. "Reuse of models in S-BPM process specifications". Proceedings of Proceedings of the 7th International Conference on Subject-Oriented Business Process Management. ACM, pp. 6, 2015.  
 摘要：
