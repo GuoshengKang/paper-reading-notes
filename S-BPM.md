@@ -11,7 +11,7 @@
    + 支持静态和动态的实例；
    + 支持设计时的决策；
    + 支持模拟。  
-1. **A Fleischmann, and W Schmidt. "***S-BPM as a new impetus in Business Process Management: A survey***". BUSINESS INFORMATICS INTERDISCIPLINARY ACADEMIC JOURNAL, Vol. No. 2, pp. 7, 2015.**  
+1. **A Fleischmann, and W Schmidt. "***S-BPM as a new impetus in Business Process Management: A survey***". BUSINESS INFORMATICS INTERDISCIPLINARY ACADEMIC JOURNAL, Vol. 32, No. 2, pp. 7, 2015.**  
 摘要：这是一篇俄文期刊的文章。简单介绍了S-BPM方法的属性，详细介绍了对BPM生命周期活动的影响。这是S-BPM提出者写的一篇综述性文章，值得初了解S-BPM的人读，有简单介绍S-BPM的由来，以及无论在工业界还是学术界引起的轩然大波，文章大张旗鼓S-BPM的优势。文章提到了两个商用的图形符号建模工具：基于Java的[Metasonic Suite](http://www.metasonic.de/)和基于.net的[InFlow](www.strict-solutions.at)。S-BPM的生命周期可以是开放性的，如下图所示：<div align=center><img width="400" height="300" src="resources/linear_and_non-linear_S-BPM-based_organizational_development.jpg"/></div>
 
 3. **Stephan Schiffner, Thomas Rothschädl, and Nils Meyer. "***Towards a subject-oriented evolutionary business information system***". Proceedings of Enterprise Distributed Object Computing Conference Workshops and Demonstrations (EDOCW), 2014 IEEE 18th International. IEEE, pp. 381-388, 2014.**  
