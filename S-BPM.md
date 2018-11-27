@@ -29,7 +29,7 @@
 7. **Robert Singer, and Erwin Zinser. "*Business Process Management—S-BPM a New Paradigm for Competitive Advantage?*". Proceedings of International Conference on Subject-Oriented Business Process Management. Springer, pp. 48-70, 2009.**  
 摘要：
 
-8. **Jan Vom Brocke, and Michael Rosemann. ***Business Process Management***. Springer, 2015.**  
+8. **Jan Vom Brocke, and Michael Rosemann. *Business Process Management*. Springer, 2015.**  
 摘要：
  
  
