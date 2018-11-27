@@ -25,7 +25,7 @@
    + 结构化流程：是指流程模型描述从端到端严格地预定义好，不存在会偏离流程模型的实例；
    + 半结构化流程：是指生命周期没有被一个形式化模型完全定义好的业务或系统流程。通常该流程具有不完全的流程视图，流程只是以流程图，流图或抽象状态机的形式给出，其流程执行不完全被中心实体所控制。相反，使用了各种IT和人工的机制，包括email、内容管理系统、基于WEB的表单、定制应用或者这些的组合。
    + 非结构化流程：是指不可预测的流程。该流程敏感依赖于外部因素，这些因素超越了流程上下文的控制。因此，这样的流程不能根据内部状态而固化起来。
-   
+
 1. **Robert Singer, and Erwin Zinser. "***Business Process Management—S-BPM a New Paradigm for Competitive Advantage?***". Proceedings of International Conference on Subject-Oriented Business Process Management. Springer, pp. 48-70, 2009.**  
 摘要：
 
