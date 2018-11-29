@@ -11,7 +11,7 @@
    + (3) 将EPNML描述的流程转化为OWL描述的流程，使其变为可执行的S-BPM模型。
 
 1. **Albert Fleischmann, Werner Schmidt, and Christian Stary. ''*Subject-oriented business process management*''.  Handbook on Business Process Management 2 Springer, pp. 601-621, 2015.**  
-摘要：这篇文章是对S-BPM建模方式与实现比较全面的一篇论文，适合最初了解S-BPM的人看，内容既全面又较新。S-BPM的建模主要分3三个步骤：(1)定义主题；(2)主题交互图；(3)主题行为建模。鉴于对初步了解的人来说，该文献非常重要，因此已对该文献翻译了[中文版本](resources/面向主题的业务流程管理.pdf)。
+摘要：这篇文章是对S-BPM建模方式与实现介绍比较全面的一篇论文，适合初步了解S-BPM的人看，内容既全面又较新。S-BPM的建模主要分3三个步骤：(1)定义主题；(2)主题交互图；(3)主题行为建模。鉴于对初步了解的人来说，该文献非常重要，因此已对该文献翻译了[中文版本](resources/面向主题的业务流程管理.pdf)。
 
 5. **Peter Forbrig. "*Reuse of models in S-BPM process specifications*". Proceedings of the 7th International Conference on Subject-Oriented Business Process Management. ACM, pp. 6, 2015.**  
 摘要：毫无疑问，领域的建模有诸多优势。现也有不同的符号的建模工具，比如：BPMN、S-BPM。尽管有很多工具支持，创建模型依然是一个挑战。从头创建模型非常耗时和易错。使用已有的模型也有一些问题。有时没有完全的执行正确，导致结果错误；也常常模型的一部分忘记改编到新的上下文。因此，重用模型已有部分的工具支持将非常有益。文章首先介绍了BPMN中如何将组件一般化，形成可以复用的组件。基本思想就是将具体业务的用参数进行泛化，使其可以描述通用的流程模型。然后，类似地将通用组件的概念引入到S-BPM中，使其模型可以重用，如下图所示：<div align=center><img width="400" height="300" src="resources/Generic_model_component_for_customer_interaction.jpg"/></div>同时，文章还讨论了不同的组件改编策略，如下图所示：<div align=center><img width="400" height="300" src="resources/Instances_of_the_generic_model_component_presented.jpg"/></div>最后，给出了开发工具支持的需求分析：  
