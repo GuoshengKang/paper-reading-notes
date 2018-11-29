@@ -9,6 +9,7 @@
    - （2）使用开源工具ProM挖掘流程，对挖掘的Petri net编制流程进行编辑，添加通信接口，将WF Net描述的流程转（PNML格式）为oWFN或Workflow Module（EPNML格式）一个例子如下：<div align=center><img width="500" height="300" src="resources/compatible_worflow_modules.jpg"/></div>
    - (3) 将EPNML描述的流程转化为OWL描述的流程，使其变为可执行的S-BPM模型。  
 [知识补充]: 终于这么多年了才好好看一下[Bipartite graph](https://en.wikipedia.org/wiki/Bipartite_graph)的定义：指顶点可以分成两个不相交的集U和V（U和V皆为独立集（independent sets），使得在同一个集内的顶点不相邻（没有共同边）的图。难怪业务流程的文章中一直提到Workflow net是二分图。工作流模块是能建模流程，使其能够与环境通信。类似的概念——开放工作流亡也提出来了。
+
 1. **Albert Fleischmann, Werner Schmidt, and Christian Stary. ''*Subject-oriented business process management*''.  Handbook on Business Process Management 2 Springer, pp. 601-621, 2015.**  
 摘要：这篇文章是对S-BPM建模方式与实现比较全面的一篇论文，适合最初了解S-BPM的人看，内容既全面又较新。S-BPM的建模主要分3三个步骤：(1)定义主题；(2)主题交互图；(3)主题行为建模。鉴于对初步了解的人来说，该文献非常重要，因此已对该文献翻译了[中文版本](resources/面向主题的业务流程管理.pdf)。
 
