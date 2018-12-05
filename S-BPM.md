@@ -25,6 +25,9 @@
 3. **Stephan Schiffner, Thomas Rothschädl, and Nils Meyer. "*Towards a subject-oriented evolutionary business information system*". Proceedings of Enterprise Distributed Object Computing Conference Workshops and Demonstrations (EDOCW), 2014 IEEE 18th International. IEEE, pp. 381-388, 2014.**  
 摘要： 这篇文章对演化业务信息系统和S-BPM进行了比较，目的是提出实现基于S-BPM的演化业务信息系统的软件需求。通过比较，S-BPM基本可以满足演化信息系统的需求属性，因此认为S-BPM是一个恰当的方法来建立演化业务信息系统。文章中对的S-BPM的初步介绍非常简洁且全面，是一个值得借鉴的写法。可惜文章引用的很多关于流程变化管理方面的文献都是德文的，没法阅读。查看其引用的文献又几乎没有，无法真正了解具体的工作。
 
+3. **Patrick Garon, Arnd Neumann, and Frank Bensberg. "*Design of a Subject-Oriented Reference Model for Change Management*". Proceedings of International Conference on Subject-Oriented Business Process Management. Springer, pp. 74-88, 2014.**  
+摘要： 文章以S-BPM的建模方式提出了一个变化管理流程的参考模型，介绍了各个subject的职责，从变化的提出、审核及实现等环节，参考模型如下图所示：<div align=center><img width="400" height="300" src="resources/SIDforChangeManagementProcess.jpg"/></div>
+
 2. **Albert Fleischmann, Werner Schmidt, Christian Stary, Stefan Obermeier, and Egon Börger. *Subject-oriented business process management*. Springer Science & Business Media, 2012.**   
 摘要：这本书对S-BPM建模、验证、优化、实现、监控、建模工具进行全面的介绍。
 
