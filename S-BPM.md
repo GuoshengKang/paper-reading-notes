@@ -38,7 +38,12 @@
    + 非结构化流程：是指不可预测的流程。该流程敏感依赖于外部因素，这些因素超越了流程上下文的控制。因此，这样的流程不能根据内部状态而固化起来。
 
 7. **Robert Singer, and Erwin Zinser. "*Business Process Management—S-BPM a New Paradigm for Competitive Advantage?*". Proceedings of International Conference on Subject-Oriented Business Process Management. Springer, pp. 48-70, 2009.**  
-摘要：
+摘要：本文提出了业务和IT之间的鸿沟，BPMN这个建模符号标准依然不是一个好理解的东西。尤其是一些移动行为（比如：发邮件）不能容易地在传统的工作流引擎中建模和实现。因此需要一种新的建模方法来适应移动行为的环境，即S-BPM。文章还大谈教育中如何设置S-BPM课程，以对比与传统BPMN建模的各样优势，以推广这样的研究到企业当中去。这篇文章给出S-BPM是一个具有前景的方法几个事实：  
+   + 面向消息的集成  
+   + 面向行为建模型方法  
+   + 简洁的建模符号集合  
+   + 流程可以采用自然语言建立  
+   + 流程模型本质上是严格形式化定义的，不需要人工干预即可执行
 
 8. **Jan Vom Brocke, and Michael Rosemann. *Business Process Management*. Springer, 2015.**  
 摘要：
