@@ -28,6 +28,9 @@
 3. **Patrick Garon, Arnd Neumann, and Frank Bensberg. "*Design of a Subject-Oriented Reference Model for Change Management*". Proceedings of International Conference on Subject-Oriented Business Process Management. Springer, pp. 74-88, 2014.**  
 摘要： 文章以S-BPM的建模方式提出了一个变化管理流程的参考模型，介绍了各个subject的职责，从变化的提出、审核及实现等环节，参考模型如下图所示：<div align=center><img width="400" height="300" src="resources/SIDforChangeManagementProcess.jpg"/></div>
 
+3. **Robert Singer, Johannes Kotremba, and Stefan Raß. "*Modeling and execution of multienterprise business processes*". Proceedings of 2014 IEEE 16th Conference on Business Informatics (CBI). IEEE, pp. 68-73, 2014.**  
+摘要：业务流程不只是规则系统的工作流（输入、黑盒、输出），它们常常有很深的社会方面，只要有人工参与的涉入。文章讨论了分布式的BPM，定义为多代理的系统，这和S-BPM的理念如出一辙，并给出了实现的体系结构，用服务交互的例子来阐述体系结构的功能，以说明S-BPM是一个很自然的方式来建模和执行分布式流程。
+
 2. **Albert Fleischmann, Werner Schmidt, Christian Stary, Stefan Obermeier, and Egon Börger. *Subject-oriented business process management*. Springer Science & Business Media, 2012.**   
 摘要：这本书对S-BPM建模、验证、优化、实现、监控、建模工具进行全面的介绍。
 
