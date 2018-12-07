@@ -2,6 +2,9 @@
 1. **Albert Fleischmann, Stephan Borgert, Matthes Elstermann, Florian Krenn, and Robert Singer. "*An overview to S-BPM oriented Tool Suites*". Proceedings of S-BPM ONE. pp. 30-31, 2017.**  
 摘要：文章给出了目前已公布的S-BPM工具，其中介绍了7个工具，有的只适合建模，有的既可以建模也可以执行。可惜没有开源本地执行的工具，具体介绍如下表：<div align=center><img width="500" height="400" src="resources/S-BPM_tool_overview_execution.jpg"/></div>还好，在github上有搜索到开源的[S-BPM建模与实现工具](https://github.com/stefanstaniAIM/IPPR2016)。
 
+1. **Robert Singer. "*Business Process Modeling and Execution--A Compiler for Distributed Microservices*". arXiv preprint arXiv:160105976, Vol. No., pp., 2016.**  
+摘要：文章提出BPMS的一些缺点，目前的BPMS主要都是建立在事实的BPMN标准上。然而已有的工具并不是直接支持业务流程模型的执行，而是BPMN向BPLE转化再执行。这意味着概念模型和执行表示之间有一道鸿沟。再者，BPMN建模需要的分析技术和在形式化语言抽象上的经验。这种能力在很多大公司是难以获得的，尤其是在以些小型、中型企业当中。因此，为了克服这些弱点，出现了S-BPM。S-BPM将业务流程看成松散的执行者网络，每个可看成一个微服务。主题（执行者）其实就是流程执行的资源，可以是人也可以是机器。本文回顾了典型的工作流系统架构，并提出了基于执行者的工作流系统架构，这种架构适合流程的内部通信，流程之间通信，及不同企业的流程之间的通信。本文讨论了概念模型的如何变成执行代码问题，给出了概念模型编译的工作过程。最后也指出了一些研究问题，都是和实际应用密切相关的。
+
 2. **Matthias Eduard Geisriegler. *Process Mining of Business Process Choreographies*[D], FH JOANNEUM - University of Applied Sciences, Graz, Austria, 2017.**  
 摘要：以往的流程挖掘产生的模型是一个编制模型，而这篇硕士论文主要的贡献是可通过流程挖掘产生S-BPM建模方式的流程编排模型，并对其进行了系统集成，S-BPM系统执行平台的体系结构[1]如下图所示：<div align=center><img width="500" height="300" src="resources/architecture_of_S-BPM_execution_platform.jpg"/></div>**[1] Matthias Geisriegler, Maksym Kolodiy, Stefan Stani, and Robert Singer. "*Actor Based Business Process Modeling and Execution: A Reference Implementation Based on Ontology Models and Microservices*". Proceedings of 2017 43rd Euromicro Conference on Software Engineering and Advanced Applications (SEAA). IEEE, pp. 359-362, 2017.**  
 [**知识补充**]: [Bipartite graph](https://en.wikipedia.org/wiki/Bipartite_graph)的定义：指顶点可以分成两个不相交的集U和V（U和V皆为独立集（independent sets），使得在同一个集内的顶点不相邻（没有共同边）的图。难怪业务流程的文章中一直提到Workflow net是二分图。工作流模块是能建模流程，使其能够与环境通信。类似的概念——开放工作流亡也提出来了。  
