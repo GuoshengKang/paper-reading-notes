@@ -25,6 +25,9 @@
 1. **A Fleischmann, and W Schmidt. "*S-BPM as a new impetus in Business Process Management: A survey*". BUSINESS INFORMATICS INTERDISCIPLINARY ACADEMIC JOURNAL, Vol. 32, No. 2, pp. 7, 2015.**  
 摘要：这是一篇俄文期刊的文章。简单介绍了S-BPM方法的属性，详细介绍了对BPM生命周期活动的影响。这是S-BPM提出者写的一篇综述性文章，值得初了解S-BPM的人读，有简单介绍S-BPM的由来，以及无论在工业界还是学术界引起的轩然大波，文章大张旗鼓S-BPM的优势。文章提到了两个商用的图形符号建模工具：基于Java的[Metasonic Suite](http://www.metasonic.de/)和基于.net的[InFlow](www.strict-solutions.at)。S-BPM的生命周期可以是开放性的，如下图所示：<div align=center><img width="400" height="300" src="resources/linear_and_non-linear_S-BPM-based_organizational_development.jpg"/></div>
 
+1. **Robert Singer, and Stefan Raß. ''*Embodying Business Rules in S-BPM*''.  S-BPM in the Wild Springer, pp. 187-199, 2015.**  
+摘要：文章提出在S-BPM中的添加业务规则，增强系统的敏捷度，减少流程适应性的工作。增加了一个业务规则引擎做为外部服务来调用，将规则的评估结果作为主题控制流的决策指导。可能和传统BPM的区别就是，原来的决策是建模在模型当中，有具体的决策点，而现在是独立出来作为一个规则引擎作为服务来调用。
+
 3. **Stephan Schiffner, Thomas Rothschädl, and Nils Meyer. "*Towards a subject-oriented evolutionary business information system*". Proceedings of Enterprise Distributed Object Computing Conference Workshops and Demonstrations (EDOCW), 2014 IEEE 18th International. IEEE, pp. 381-388, 2014.**  
 摘要： 这篇文章对演化业务信息系统和S-BPM进行了比较，目的是提出实现基于S-BPM的演化业务信息系统的软件需求。通过比较，S-BPM基本可以满足演化信息系统的需求属性，因此认为S-BPM是一个恰当的方法来建立演化业务信息系统。文章中对的S-BPM的初步介绍非常简洁且全面，是一个值得借鉴的写法。可惜文章引用的很多关于流程变化管理方面的文献都是德文的，没法阅读。查看其引用的文献又几乎没有，无法真正了解具体的工作。
 
