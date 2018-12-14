@@ -2,10 +2,10 @@
 1. **Albert Fleischmann, Stephan Borgert, Matthes Elstermann, Florian Krenn, and Robert Singer. "*An overview to S-BPM oriented Tool Suites*". Proceedings of S-BPM ONE. pp. 30-31, 2017.**  
 摘要：文章给出了目前已公布的S-BPM工具，其中介绍了7个工具，有的只适合建模，有的既可以建模也可以执行。可惜没有开源本地执行的工具，具体介绍如下表：<div align=center><img width="500" height="400" src="resources/S-BPM_tool_overview_execution.jpg"/></div>还好，在github上有搜索到开源的[S-BPM建模与实现工具](https://github.com/stefanstaniAIM/IPPR2016)。
 
-1. **Robert Singer. "*Business Process Modeling and Execution--A Compiler for Distributed Microservices*". arXiv preprint arXiv:160105976, Vol. No., pp., 2016.**  
+2. **Robert Singer. "*Business Process Modeling and Execution--A Compiler for Distributed Microservices*". arXiv preprint arXiv:160105976, Vol. No., pp., 2016.**  
 摘要：文章提出BPMS的一些缺点，目前的BPMS主要都是建立在事实的BPMN标准上。然而已有的工具并不是直接支持业务流程模型的执行，而是BPMN向BPLE转化再执行。这意味着概念模型和执行表示之间有一道鸿沟。再者，BPMN建模需要的分析技术和在形式化语言抽象上的经验。这种能力在很多大公司是难以获得的，尤其是在以些小型、中型企业当中。因此，为了克服这些弱点，出现了S-BPM。S-BPM将业务流程看成松散的执行者网络，每个可看成一个微服务。主题（执行者）其实就是流程执行的资源，可以是人也可以是机器。本文回顾了典型的工作流系统架构，并提出了基于执行者的工作流系统架构，如下图所示，这种架构适合流程的内部通信，流程之间通信，及不同企业的流程之间的通信。<div align=center><img width="600" height="350" src="resources/architecture_of_distributed_S-BPM.jpg"/></div>本文讨论了概念模型的如何变成执行代码问题，给出了概念模型编译的工作过程，如下图所示：<div align=center><img width="500" height="300" src="resources/compilation_work_flow_for_S-BPM.jpg"/></div>最后也指出了一些研究问题，都是和实际应用密切相关的。
 
-2. **Matthias Eduard Geisriegler. *Process Mining of Business Process Choreographies*[D], FH JOANNEUM - University of Applied Sciences, Graz, Austria, 2017.**  
+3. **Matthias Eduard Geisriegler. *Process Mining of Business Process Choreographies*[D], FH JOANNEUM - University of Applied Sciences, Graz, Austria, 2017.**  
 摘要：以往的流程挖掘产生的模型是一个编制模型，而这篇硕士论文主要的贡献是可通过流程挖掘产生S-BPM建模方式的流程编排模型，并对其进行了系统集成，S-BPM系统执行平台的体系结构[1]如下图所示：<div align=center><img width="500" height="300" src="resources/architecture_of_S-BPM_execution_platform.jpg"/></div>**[1] Matthias Geisriegler, Maksym Kolodiy, Stefan Stani, and Robert Singer. "*Actor Based Business Process Modeling and Execution: A Reference Implementation Based on Ontology Models and Microservices*". Proceedings of 2017 43rd Euromicro Conference on Software Engineering and Advanced Applications (SEAA). IEEE, pp. 359-362, 2017.**  
 [**知识补充**]: [Bipartite graph](https://en.wikipedia.org/wiki/Bipartite_graph)的定义：指顶点可以分成两个不相交的集U和V（U和V皆为独立集（independent sets），使得在同一个集内的顶点不相邻（没有共同边）的图。难怪业务流程的文章中一直提到Workflow net是二分图。工作流模块是能建模流程，使其能够与环境通信。类似的概念——开放工作流亡也提出来了。  
 **主要思路**：
@@ -13,7 +13,7 @@
    + （2）使用开源的流程挖掘工具[ProM](http://www.promtools.org)，对挖掘的Petri Net编制流程进行编辑，添加通信接口，从而将WF Net描述的流程（PNML格式）扩充为oWFN或Workflow Module（EPNML格式）一个例子如下：<div align=center><img width="500" height="300" src="resources/compatible_worflow_modules.jpg"/></div>
    + (3) 将EPNML描述的流程映射为OWL描述的流程，使其变为可执行的S-BPM模型。
 
-1. **Albert Fleischmann, Werner Schmidt, and Christian Stary. ''*Subject-oriented business process management*''.  Handbook on Business Process Management 2 Springer, pp. 601-621, 2015.**  
+4. **Albert Fleischmann, Werner Schmidt, and Christian Stary. ''*Subject-oriented business process management*''.  Handbook on Business Process Management 2 Springer, pp. 601-621, 2015.**  
 摘要：这篇文章是对S-BPM建模方式与实现介绍比较全面的一篇论文，适合初步了解S-BPM的人看，内容既全面又较新。S-BPM的建模主要分3三个步骤：(1)定义主题；(2)主题交互图；(3)主题行为建模。鉴于对初步了解的人来说，该文献非常重要，因此已对该文献翻译了[中文版本](resources/面向主题的业务流程管理.pdf)。
 
 5. **Peter Forbrig. "*Reuse of models in S-BPM process specifications*". Proceedings of the 7th International Conference on Subject-Oriented Business Process Management. ACM, pp. 6, 2015.**  
@@ -29,7 +29,8 @@
 摘要：文章提出在S-BPM中的添加业务规则，增强系统的敏捷度，减少流程适应性的工作。增加了一个业务规则引擎做为外部服务来调用，将规则的评估结果作为主题控制流的决策指导。可能和传统BPM的区别就是，原来的决策是建模在模型当中，有具体的决策点，而现在是独立出来作为一个规则引擎作为服务来调用。
 
 3. **Stephan Schiffner, Thomas Rothschädl, and Nils Meyer. "*Towards a subject-oriented evolutionary business information system*". Proceedings of Enterprise Distributed Object Computing Conference Workshops and Demonstrations (EDOCW), 2014 IEEE 18th International. IEEE, pp. 381-388, 2014.**  
-摘要： 这篇文章对演化业务信息系统和S-BPM进行了比较，目的是提出实现基于S-BPM的演化业务信息系统的软件需求。通过比较，S-BPM基本可以满足演化信息系统的需求属性，因此认为S-BPM是一个恰当的方法来建立演化业务信息系统。文章中对的S-BPM的初步介绍非常简洁且全面，是一个值得借鉴的写法。可惜文章引用的很多关于流程变化管理方面的文献都是德文的，没法阅读。查看其引用的文献又几乎没有，无法真正了解具体的工作。
+摘要： 这篇文章对演化业务信息系统和S-BPM进行了比较，目的是提出实现基于S-BPM的演化业务信息系统的软件需求。通过比较，S-BPM基本可以满足演化信息系统的需求属性，因此认为S-BPM是一个恰当的方法来建立演化业务信息系统。文章中对的S-BPM的初步介绍非常简洁且全面，是一个值得借鉴的写法。可惜文章引用的很多关于流程变化管理方面的文献都是德文的，没法阅读。查看其引用的文献又几乎没有，无法真正了解具体的工作。鉴于对S-BPM驱动的演化业务信息系统的软件需求描述比较完整，还给出了原型的概念设计如下图所示，这对流程的变化管理非常重要，因此已对该文献翻译了[中文版本](resources/面向主题的演化业务信息系统.pdf)。<div align=center><img width="400" height="300" src="resources/Conceptual_Design_S-BPM-driven_EBIS.jpg"/></div>
+
 
 3. **Patrick Garon, Arnd Neumann, and Frank Bensberg. "*Design of a Subject-Oriented Reference Model for Change Management*". Proceedings of International Conference on Subject-Oriented Business Process Management. Springer, pp. 74-88, 2014.**  
 摘要： 文章以S-BPM的建模方式提出了一个变化管理流程的参考模型，介绍了各个subject的职责，从变化的提出、审核及实现等环节，参考模型如下图所示：<div align=center><img width="400" height="300" src="resources/SIDforChangeManagementProcess.jpg"/></div>
