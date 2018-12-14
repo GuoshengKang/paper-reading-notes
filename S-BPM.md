@@ -29,7 +29,7 @@
 摘要：文章提出在S-BPM中的添加业务规则，增强系统的敏捷度，减少流程适应性的工作。增加了一个业务规则引擎做为外部服务来调用，将规则的评估结果作为主题控制流的决策指导。可能和传统BPM的区别就是，原来的决策是建模在模型当中，有具体的决策点，而现在是独立出来作为一个规则引擎作为服务来调用。
 
 3. **Stephan Schiffner, Thomas Rothschädl, and Nils Meyer. "*Towards a subject-oriented evolutionary business information system*". Proceedings of Enterprise Distributed Object Computing Conference Workshops and Demonstrations (EDOCW), 2014 IEEE 18th International. IEEE, pp. 381-388, 2014.**  
-摘要： 这篇文章对演化业务信息系统和S-BPM进行了比较，目的是提出实现基于S-BPM的演化业务信息系统的软件需求。通过比较，S-BPM基本可以满足演化信息系统的需求属性，因此认为S-BPM是一个恰当的方法来建立演化业务信息系统。文章中对的S-BPM的初步介绍非常简洁且全面，是一个值得借鉴的写法。可惜文章引用的很多关于流程变化管理方面的文献都是德文的，没法阅读。查看其引用的文献又几乎没有，无法真正了解具体的工作。鉴于对S-BPM驱动的演化业务信息系统的软件需求描述比较完整，还给出了原型的概念设计如下图所示，这对流程的变化管理非常重要，因此已对该文献翻译了[中文版本](resources/面向主题的演化业务信息系统.pdf)。<div align=center><img width="400" height="300" src="resources/Conceptual_Design_S-BPM-driven_EBIS.jpg"/></div>
+摘要： 这篇文章对演化业务信息系统EBIS和S-BPM进行了比较，目的是提出实现基于S-BPM的演化业务信息系统的软件需求。通过比较，S-BPM基本可以满足演化信息系统的需求属性，因此认为S-BPM是一个恰当的方法来建立演化业务信息系统。文章中对的S-BPM的初步介绍非常简洁且全面，是一个值得借鉴的写法。可惜文章引用的很多关于流程变化管理方面的文献都是德文的，没法阅读。查看其引用的文献又几乎没有，无法真正了解具体的工作。鉴于对S-BPM驱动的演化业务信息系统的软件需求描述比较完整，还给出了S-BPM驱动的EBIS的概念设计如下图所示，这对流程的变化管理非常重要，因此已对该文献翻译了[中文版本](resources/面向主题的演化业务信息系统.pdf)。<div align=center><img width="400" height="350" src="resources/Conceptual_Design_S-BPM-driven_EBIS.jpg"/></div>
 
 
 3. **Patrick Garon, Arnd Neumann, and Frank Bensberg. "*Design of a Subject-Oriented Reference Model for Change Management*". Proceedings of International Conference on Subject-Oriented Business Process Management. Springer, pp. 74-88, 2014.**  
